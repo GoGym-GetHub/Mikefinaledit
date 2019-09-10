@@ -1,0 +1,75 @@
+* {
+    background-image: url(https://images.unsplash.com/photo-1562184760-a11b3cf7c169?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    }
+* {
+        width: auto;
+        border: 2px black;
+        padding: 5px;
+        margin: 15px;
+    }
+    p {
+        background-color: rgba(180, 144, 144, 0.753);
+        border: 2px solid black;
+        margin: 15px;
+    }
+    body {
+        background-color: rgba(187, 164, 143, 0.2);
+        border: 2px solid black;
+        margin: 15px;
+    }
+
+        background-image: url(https://images.unsplash.com/photo-1562184760-a11b3cf7c169?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60);
+
+to link a page
+<a href="https://www.computerhistory.org/babbage/" target="_blank">Charles Babbage</a>
+* {
+        width: auto;
+        border: 2px rgb(255, 255, 255);
+        padding: 5px;
+        margin: 15px;
+    }
+    body {
+        background-color: rgba(255, 255, 255, 0.753);
+        border: 2px solid black;
+        margin: 15px;
+    }
+    p {
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 2px solid black;
+        margin: 15px;
+    }
+2.1 - Review the ongoing use of IT tools and change approach as needed.
+(in making my own website, am i happy with the tools used VSC, TRELLO.)
+
+2.2 - Describe whether the IT tools selected were appropiate E.G. VSC, TRELLO
+
+2.3 - asses the strengths and weaknesses of my final project.
+(am i happy with it? why? have you reviewed it?
+
+2.4 - describe further improvements.
+
+2.5 - review outcomes, to make sure they match the requirements and are fit for purpose.
+
+3.1 - review the benefits of and drawbacks of IT tools and systems used in terms of productivity and efficiaency,
+(could i have been more efficiant? How?)
+
+3.2 - describe wasy to improve prodyctivity?
+
+3.3 - develop solutions to improve own productivity?
+
+3.4 - Describe how you would go about testing digital solutions
+(define it and then explain why its down and why it is feared)
+
+
+
+
+
+
+
+
+
+
