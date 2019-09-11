@@ -9,18 +9,38 @@ html{
 .navBar {
     display: flex;
     /* background-color: gray;*/
-    background-image: url(http://giphygifs.s3.amazonaws.com/media/sIIhZliB2McAo/giphy.gif);
-    background-size: width cover;
+    background-image: url(https://i.gifer.com/NIg.gif);
     background-color: #1A4F80;
     border-radius: 10px 100px / 120px;
-    background-size: contain;
+    background-size: 40%;
+    /* change the image to one in the folder tomorrow*/
+    background-position-y: center;
     background-repeat: no-repeat;
     margin: 15px;
     padding: 15px;
     border: double black;
     justify-content: flex-end;
     text-align: center;
-    align-content: space-between;
+}
+.navBar a {
+  color: rgb(255, 255, 255);
+  text-align: right;
+  padding: 10px;
+  text-decoration: none;
+}
+/* this changes the color of links on hover */
+.navBar a:hover {
+  background-color: rgb(179, 27, 133);
+  border-radius: 30px;
+  color: rgb(255, 255, 255);
+  transform: scale(1.5);
+  transition: ease-in-out 0.3s;
+}
+/* to add a color to the active/current link */
+.navBar a.active {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
 }
 .text{
     background-size: cover;
