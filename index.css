@@ -54,7 +54,7 @@ html{
 }
 h1, h3, h4 {
     background-size: 500px;
-    width: 50%;
+    width: fit-content;
     background-color: rgba(173 , 173, 173, 0.8);
     border-radius: 10px 100px / 120px;
     background-position: fixed;
