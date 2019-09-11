@@ -1,59 +1,41 @@
-body
-{
-    margin: 0;
-    padding: 0;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1562184760-a11b3cf7c169?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+.navBar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
-    background: #c58e59;
+    background-color: gray;
+    border-radius: 10px 100px / 120px;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    border: double black;
+    justify-content: flex-end;
+    text-align: center;
+    align-content: space-between;
 }
-ul {
-    margin: 0;
-    padding: 0;
-    display: flex
+.text{
+    background-size: cover;
+    background-color: rgba(173, 173, 173, 0.8);
+    border-radius: 10px 100px / 120px;
+    background-position: fixed;
+    text-align: left;
+    margin: 20px;
+    padding: 30px;
+    border: double black;
 }
-ul li {
-    list-style: none;
-    margin: 0 20px;
-    transition: 0.5s;
-}
-ul li a {
-    display: block;
-    position: relative;
-    text-decoration: none;
-    padding: 5px;
-    font-size: 18px;
-    font-family: sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    transition: 0.5s;
-}
-ul:hover li a {
-    transform: scale(1.5);
-    opacity: .2;
-    filter: blur(5px);
-}
-ul li a:hover {
-    transform: scale(2);
-    opacity: 1;
-    filter: blur(0);
-}
-ul li a:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #5a5f57;
-    transition: 0.5s;
-    transform-origin: right;
-    transform: scaleX(0);
-    z-index: -1;
-}
-ul li a:hover:before {
-    transition: transform 0.5s;
-    transform-origin: left;
-    transform: scaleX(1);
+h1, h2, h3, h4 {
+    background-size: 500px;
+    width: 50%;
+    background-color: rgba(173 , 173, 173, 0.8);
+    border-radius: 50px 100px / 120px;
+    background-position: fixed;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+    border: double black;
 }
