@@ -8,11 +8,15 @@ html{
 }
 .navBar {
     display: flex;
-    background-color: gray;
+    /* background-color: gray;*/
+    background-image: url(http://giphygifs.s3.amazonaws.com/media/sIIhZliB2McAo/giphy.gif);
+    background-size: width cover;
+    background-color: #1A4F80;
     border-radius: 10px 100px / 120px;
-    background-size: cover;
-    margin: 10px;
-    padding: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    padding: 15px;
     border: double black;
     justify-content: flex-end;
     text-align: center;
@@ -28,14 +32,15 @@ html{
     padding: 30px;
     border: double black;
 }
-h1, h2, h3, h4 {
+h1, h3, h4 {
     background-size: 500px;
     width: 50%;
     background-color: rgba(173 , 173, 173, 0.8);
-    border-radius: 50px 100px / 120px;
+    border-radius: 10px 100px / 120px;
     background-position: fixed;
-    text-align: left;
-    margin: 20px;
-    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
     border: double black;
 }

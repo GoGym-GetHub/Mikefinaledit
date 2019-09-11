@@ -1,0 +1,87 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+html{
+    background-attachment: fixed;
+    background-image: url(https://images.unsplash.com/photo-1562184760-a11b3cf7c169?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);
+    background-size: cover;
+}
+.navBar {
+    display: flex;
+    /* background-color: gray;*/
+    background-image: url(http://giphygifs.s3.amazonaws.com/media/sIIhZliB2McAo/giphy.gif);
+    background-size: width cover;
+    background-color: #1A4F80;
+    border-radius: 10px 100px / 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 15px;
+    padding: 15px;
+    border: double black;
+    justify-content: flex-end;
+    text-align: center;
+    align-content: space-between;
+}
+.text{
+    background-size: cover;
+    background-color: rgba(173, 173, 173, 0.8);
+    border-radius: 10px 100px / 120px;
+    background-position: fixed;
+    text-align: left;
+    margin: 20px;
+    padding: 30px;
+    border: double black;
+}
+h1, h3, h4 {
+    background-size: 500px;
+    width: 50%;
+    background-color: rgba(173 , 173, 173, 0.8);
+    border-radius: 10px 100px / 120px;
+    background-position: fixed;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: double black;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
